@@ -1,0 +1,8 @@
+<p *ngIf="product.description">
+  {{product.description}}
+</p>
+<div *ngIf="product.price > 700">
+  <button (click)="onClickNotifyEmitEvent()">
+    Notify
+  </button>
+</div>
